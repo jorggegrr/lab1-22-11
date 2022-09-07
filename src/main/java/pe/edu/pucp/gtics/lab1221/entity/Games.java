@@ -35,7 +35,6 @@ public class Games {
     public int getIdjuego() {
         return idjuego;
     }
-
     public void setIdjuego(int idjuego) {
         this.idjuego = idjuego;
     }

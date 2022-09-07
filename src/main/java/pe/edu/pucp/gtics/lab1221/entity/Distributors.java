@@ -23,6 +23,7 @@ public class Distributors {
     @Column(name = "sede")
     private String sede;
 
+
     public int getIddistribuidora() {
         return iddistribuidora;
     }

@@ -16,7 +16,6 @@ public class Platforms {
     @Basic
     @Column(name = "descripcion")
     private String descripcion;
-
     public int getIdplataforma() {
         return idplataforma;
     }

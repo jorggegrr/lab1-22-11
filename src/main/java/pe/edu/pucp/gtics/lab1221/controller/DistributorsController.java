@@ -25,7 +25,6 @@ public class DistributorsController {
         model.addAttribute("listaDistrib", lista);
         return "distribuidoras/lista";
     }
-
     @RequestMapping(value = "distribuidoras/editar", method = RequestMethod.GET)
     public String editarDistribuidoras(Model model, @RequestParam("id") int id){
         Optional<Distributors> optDistribuidoras = distributorsRepository.findById(id);
